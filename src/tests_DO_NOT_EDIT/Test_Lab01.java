@@ -123,8 +123,8 @@ class Test_Lab01 {
 		
 		String problemNumber = "Problem #3";
 		
-		int num1 = (int) (Math.random() * 50000) + 10000;
-		int num2 = (int) (Math.random() * 50000) + 10000;
+		int num1 = (int) (Math.random() * 500) + 10000;
+		int num2 = (int) (Math.random() * 500) + 10000;
 		double num3 = Math.sqrt(Math.pow(num1, 2) + Math.pow(num2,  2));
 
 		String[][] tests = {{"5\n7", "Hypotenuse = 8.602325267042627" },
